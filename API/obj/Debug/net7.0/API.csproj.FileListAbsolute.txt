@@ -1,0 +1,17 @@
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\bin\Debug\net7.0\API.exe
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\bin\Debug\net7.0\API.deps.json
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\bin\Debug\net7.0\API.runtimeconfig.json
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\bin\Debug\net7.0\API.dll
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\bin\Debug\net7.0\API.pdb
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\bin\Debug\net7.0\RestSharp.dll
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.csproj.CopyComplete
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.dll
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\refint\API.dll
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.pdb
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+c:\Users\edvin.arvesjo\Desktop\programering 2\API\API\obj\Debug\net7.0\ref\API.dll
