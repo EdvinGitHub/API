@@ -1,6 +1,7 @@
 using API;
 using RestSharp;
 using System.Runtime.ConstrainedExecution;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 
@@ -14,35 +15,33 @@ while(what < 1 || what > 3)
 }
 if(what == 1)
 {
-    string digimonName = Console.ReadLine();
-    RestRequest request = new RestRequest($"digimon/"+digimonName);
+int digimonNumber = Convert.ToInt32(Console.ReadLine());
+if (digimonNumber < 0 || digimonNumber > 1471)
+{Console.WriteLine("you have given not given oss a number that works");}
 
-    RestResponse response = client.GetAsync(request).Result;
-    Digimon d = JsonSerializer.Deserialize<Digimon>(response.Content);
-    // for (int i = 0; i < 1471; i++)
-    // {
-    // request = new RestRequest($"digimon/"+i);
-        
-    // if (d.Name == digimonName)
-    // {
-    //     i = 1472;
-    // }
-
-    // }
-Console.WriteLine(d.Name);
-Console.WriteLine(d.Types[0].Name);
-// Console.WriteLine(d.Name);
-// Console.WriteLine(d.Types[0].Name);
-}
-if(what == 2)
+else
 {
-string digimonNumber = Console.ReadLine();
-
 RestRequest request = new RestRequest($"digimon/"+digimonNumber);
 RestResponse response = client.GetAsync(request).Result;
 Digimon d = JsonSerializer.Deserialize<Digimon>(response.Content);
+
+
 Console.WriteLine(d.Name);
+}
+}
+if(what == 2)
+{
+int digimonNumber = Convert.ToInt32(Console.ReadLine());
+if (digimonNumber < 0 || digimonNumber > 1471)
+{Console.WriteLine("you have given not given oss a number that works");}
+else
+{
+RestRequest request = new RestRequest($"digimon/"+digimonNumber);
+RestResponse response = client.GetAsync(request).Result;
+Digimon d = JsonSerializer.Deserialize<Digimon>(response.Content);
+
 Console.WriteLine(d.Types[0].Name);
+}
 }
 if(what == 3)
 {
@@ -56,10 +55,15 @@ if(what == 3)
     RestRequest request = new RestRequest($"digimon/"+i);
 
     RestResponse response = client.GetAsync(request).Result;
+    while(response.Content == "")
+    {
+    response = client.GetAsync(request).Result;
+    }
+    
     Digimon d = JsonSerializer.Deserialize<Digimon>(response.Content);
     // request = new RestRequest($"digimon/"+g);
     int g = d.Types.Count;
-    if(g ==1)
+    if(g == 1)
     {
     if(d.Types[0].Name == digimonType)
     {
@@ -74,9 +78,13 @@ if(what == 3)
     }
         
     }
-    for (int i = 0; i < DigimonType.Count; i++)
-    {
-        Console.WriteLine(DigimonType[i]);
-    }
+    if(what == 3 )
+    {if(DigimonType.Count == 0)
+        {Console.WriteLine("you have not givien a type that does exit");}
+        else
+        {
+        for (int i = 0; i < DigimonType.Count; i++)
+        {Console.WriteLine(DigimonType[i]);}
+        }}
 
 Console.ReadLine();
