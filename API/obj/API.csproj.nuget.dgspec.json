@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj": {}
+    "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj": {
+    "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\edvin.arvesjo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\obj\\",
+        "outputPath": "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edvin.arvesjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
